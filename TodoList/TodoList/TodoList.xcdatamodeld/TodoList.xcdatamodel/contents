@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MemoCategories" representedClassName=".MemoCategories" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id_number" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Memos" representedClassName=".Memos" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id_number" optional="YES" attributeType="String"/>
+        <attribute name="parent" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="view_date" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ToDoItems" representedClassName=".ToDoItems" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="item" optional="YES" attributeType="String"/>
+        <attribute name="view_date" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Memos" positionX="-63" positionY="9" width="128" height="133"/>
+        <element name="ToDoItems" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="MemoCategories" positionX="-54" positionY="54" width="128" height="88"/>
+    </elements>
+</model>
