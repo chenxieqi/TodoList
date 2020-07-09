@@ -8,7 +8,7 @@ swiftUI
 ### データベース   
 Core Data
 ### pod　　　　
-
+なし
 
 ### 期間
 ０からswiftなど独学し、まだ制作中
